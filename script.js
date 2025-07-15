@@ -3,7 +3,7 @@ const noBtn = document.getElementById("no");
 
 let yesScale = 1.0; // başlangıç ölçeği
 
-noBtn.addEventListener("mouseenter", () => {
+noBtn.addEventListener("click", () => {
   const container = document.querySelector(".container");
   const containerRect = container.getBoundingClientRect();
   const maxX = containerRect.width - noBtn.offsetWidth;
